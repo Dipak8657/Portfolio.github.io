@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+    <main class="main">
+        <nav class="navbar">
+            <h1>Dipak Vispute Portfolio</h1>
+           <div class="navigation">
+            <input type="checkbox"  class="toggle-menu" id="menu-btn">
+            <div class="hamburger"></div>
+             <ul class="navigationmenu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skill">skills</a></li>
+                <li><a href="#project">projects</a></li>
+                <li><a href="#contactForm">Let's Connect!</a></li>
+            </ul>
+            <div>
+        </nav>
+        <section class="herosection" id="home">
+        <img src="images/pro2.png" alt="" class="profileimage">
+        <div class="herosectiondetailes">
+            <h1>Dipak vispute </h1>
+            <h3>full-stack web developer </h3>
+            <div class="socialmedia">
+                <a href="https://www.instagram.com/dipak_vispute/" class="instagram"><img src="images/instagram.svg" alt="inst"class="social"></a>
+                <a href="https://www.linkedin.com/in/dipak-vispute-124337214" class="linkdin"><img src="images/linkedin.svg" alt="link"class="social"></a>
+                <a href="" class="facebool"><img src="images/facebook.svg" alt="fb"class="social"></a>
+            </div>
+        </div>
+      
+        </section>
+        <section class="aboutme" id="aboutme">
+            <h1>About me.......</h1>
+            <p>Some basic details can be added hear regarding what you are realy known for. What you have done in your past job experience. Why do  you think you are doing well and more compatible with respect to other users and creators. Some basic details can be added hear regarding what you are realy known for. What you have done in your past job experience. Why do  you think you are doing well and more compatible with respect to other users and creators. Some basic details can be added hear regarding what you are realy known for. What you have done in your past job experience. Why do  you think you are doing well and more compatible with respect to other users and creators.</p>
+        </section>
+        <section class="skillandproject">
+            <div class="skill" id="skill">
+                <h1 class="cardheading">Skill</h1>
+                <img  title="HTML"  src="images/html.svg">
+                <img title="CSS"  src="images/css.svg" >
+                <img  title="javascript"  src="images/js.svg" >
+                <img  title="java" src="images/java.svg" >
+                <img title="MySQL"  src="images/mysql.svg" >
+            </div>
+            <div class="project" id="project">
+                <h1 class="cardheading">Project</h1>
+                <div class="projectcontainer">
+                    <img src="images/stock.png" >
+                    <div class="projectdescription">
+                        <h3>Material Handling and Storage System</h3>
+                        <p> •	Design And Developing Assembly Section. It consists of Design of Layout, Implementation of Inventory Management, Location Identification, KANBAN Implementation, lead time reduction in material Movement,  Visual Management.
+                            •	Making SOP of assembly and packaging.
+                            •	Making of Value Stream Mapping.
+                            •	Designing the wrapping machine
+                            </p>
+                    </div>
+                </div>
+                <div class="projectcontainer">
+                    <img src="images/app-development.png" >
+                    <div class="projectdescription">
+                        <h3>porfolio website</h3>
+                        <p> front-end developer making a responsive porfollio website by using HTML and CSS.
+                         </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class='contactForm' id='contactForm'>
+            <h1>Let's Connect!</h2>
+            <div class='formGroup'>
+              <label for='name'>Enter Full Name</label><br/>
+              <input type='text' id='name' placeholder='Full Name'/>
+            </div>
+            <div class='formGroup'>
+              <label for='email'>Email</label><br/>
+              <input type='text' id='email' placeholder='Email'/>
+            </div>
+            <div class='formGroup'>
+              <label for='message'>Message</label><br/>
+              <textarea placeholder="Send some message!" id="message" name="w3review" rows="4" cols="50"></textarea>
+            </div>
+            <button class='submitButton' onClick={submit()}>Connect</button>
+          </section>
+    </main>
+</body>
+</html>
