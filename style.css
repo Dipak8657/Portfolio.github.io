@@ -364,5 +364,12 @@ opacity: 0;
   box-shadow: 0 1px 0 rgba(16, 10, 10, 0.31)inset;
 }   
 }
-  
+#more{
+  display:none;
+}
+#myBtn{
+  color: blue;
+  cursor: pointer;
+  padding: 4px 4px;
+}  
  
