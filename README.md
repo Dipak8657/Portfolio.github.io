@@ -1,7 +1,3 @@
-# Portfolio.github.io
-To create a README file for your GitHub repository showcasing your personal portfolio website, you can follow the structure below:
-
----
 
 # My Portfolio Website
 
@@ -12,7 +8,8 @@ This repository contains the code for my personal portfolio website showcasing m
 - [About](#about)
 - [Skills](#skills)
 - [Projects](#projects)
-- [Contact](#contact)
+- [Contact](#contact
+
 
 
 ## About
@@ -44,9 +41,10 @@ Feel free to connect with me:
 - GitHub: [GitHub Profile](https://github.com/Dipak8657)
 - Email: dipakvispute134@gmail.com
 
-
-
-
+## How to Use
+1 .Clone the repository:
+git clone https://github.com/your-username/your-portfolio-website.git
+2 .Open index.html in a web browser to view the portfolio website.
 
 
 
