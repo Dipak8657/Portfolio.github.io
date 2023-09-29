@@ -8,7 +8,7 @@ This repository contains the code for my personal portfolio website showcasing m
 - [About](#about)
 - [Skills](#skills)
 - [Projects](#projects)
-- [Contact](#contact
+- [Contact](#contact)
 
 
 
