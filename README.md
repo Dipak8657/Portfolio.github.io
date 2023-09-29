@@ -14,7 +14,7 @@ This repository contains the code for my personal portfolio website showcasing m
 
 ## About
 
-This portfolio website is designed and developed by [Your Name](your-portfolio-website-link) using HTML, CSS, and JavaScript. It provides an overview of my background, skills, projects, and a way to get in touch.
+This portfolio website is designed and developed by Dipak vispute (https://dipak8657.github.io/Portfolio.github.io/) using HTML, CSS, and JavaScript. It provides an overview of my background, skills, projects, and a way to get in touch.
 
 ## Skills
 
